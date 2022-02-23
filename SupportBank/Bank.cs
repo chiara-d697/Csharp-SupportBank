@@ -17,16 +17,20 @@ namespace ShopInventory
             {
                 if (nr!=0)
                 {
-                    // string[] arr = line.Split(",");
-                    // foreach (string a in arr)
-                    // {
-                    //     Console.WriteLine(a);
-                    // }
-                    Transaction transaction = new Transaction (line);
-                        
+                    Transaction transaction = new Transaction (line);    
+                    TransactionList.Add(transaction);    
                 }
                 nr+=1;
             }
+        }
+
+        public void PrintTransactions ()
+        {
+            foreach (Transaction transaction in TransactionList)
+            {
+                transaction.PrintTransaction();
+            }
+            
         }
 
 

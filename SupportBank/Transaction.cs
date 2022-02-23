@@ -29,7 +29,7 @@ namespace ShopInventory
         }
         public void PrintTransaction ()
         {
-            Console.WriteLine("Date {0} From {1} To {2} Ref {3} Amount {4}:",Date.ToString("dd-MM-yyyy"),AccountFrom,AccountTo,PaymentReference,Amount);
+            Console.WriteLine("Date {0} From {1} To {2} Ref {3} Amount {4}",Date.ToString("dd-MM-yyyy"),AccountFrom,AccountTo,PaymentReference,Amount);
         }
     }
 }
