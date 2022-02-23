@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace ShopInventory
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            Bank b = new Bank();
+            b.GetTransactionsFromFile("Transactions2014.csv");
+        }
+    }
+}
