@@ -21,15 +21,26 @@ namespace SupportBank
                 {
                     Transaction transaction = new Transaction (line);    
                     TransactionList.Add(transaction);
-                    AddToAccountList(transaction);    
+                    AddToAccountList(transaction.AccountFrom); 
+                    AddToAccountList(transaction.AccountTo);    
                 }
                 nr+=1;
             }
         }
- 
-        public void AddToAccountList(Transaction transaction)
+
+        public void AddToAccountList(String accountName)
         {
-            
+            int x=0;
+            foreach (Account a in AccountList)
+            {
+                if (a.Name==accountName) 
+                    x+=1;
+            }
+            if (x==0)
+            {
+                Account account = new Account(accountName);
+                AccountList.Add(account);
+            }
         }
 
         public void PrintTransactions ()
@@ -48,6 +59,7 @@ namespace SupportBank
                 account.DisplayAccountName();
             }
         }
+
 
 
     }
