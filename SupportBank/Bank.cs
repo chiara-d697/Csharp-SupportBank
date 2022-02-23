@@ -1,12 +1,14 @@
-namespace ShopInventory
+namespace SupportBank
 {
     public class Bank
     {
         public List<Transaction> TransactionList {get; set;}
+        public List<Account> AccountList {get; set;}
         
-        public Bank ()
+        public Bank()
         {
             TransactionList = new List<Transaction>();
+            AccountList = new List<Account>();
         }
 
         public void GetTransactionsFromFile(String fileName) 
@@ -18,10 +20,16 @@ namespace ShopInventory
                 if (nr!=0)
                 {
                     Transaction transaction = new Transaction (line);    
-                    TransactionList.Add(transaction);    
+                    TransactionList.Add(transaction);
+                    AddToAccountList(transaction);    
                 }
                 nr+=1;
             }
+        }
+ 
+        public void AddToAccountList(Transaction transaction)
+        {
+            
         }
 
         public void PrintTransactions ()
@@ -31,6 +39,14 @@ namespace ShopInventory
                 transaction.PrintTransaction();
             }
             
+        }
+
+        public void DisplayAccountList()
+        {
+            foreach (Account account in AccountList)
+            {
+                account.DisplayAccountName();
+            }
         }
 
 

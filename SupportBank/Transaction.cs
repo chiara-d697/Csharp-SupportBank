@@ -1,4 +1,4 @@
-namespace ShopInventory
+namespace SupportBank
 {
     public class Transaction
     {
