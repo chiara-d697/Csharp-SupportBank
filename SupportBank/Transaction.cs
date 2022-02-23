@@ -20,15 +20,11 @@ namespace ShopInventory
         public Transaction (String line)
         {
             string[] arr = line.Split(",");
-            Date=arr[0];
+            Date=DateTime.Parse(arr[0]);
             AccountFrom=arr[1];
             AccountTo=arr[2];
             PaymentReference=arr[3];
-            Amount=arr[4];
-            // foreach (string a in arr)
-            // {
-            //     Console.WriteLine(a);
-            // }
+            Amount=float.Parse(arr[4]);
             PrintTransaction();
         }
         public void PrintTransaction ()
