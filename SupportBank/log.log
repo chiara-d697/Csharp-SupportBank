@@ -1,0 +1,53 @@
+2022-02-24 14:53:47.9350|INFO|SupportBank.Program|Hello world
+2022-02-24 15:25:03.0691|INFO|SupportBank.Transaction|File line: 01/01/2015,Laura B,Sarah T,Misc Morale,10.54
+2022-02-24 15:26:32.4859|INFO|SupportBank.Transaction|File line: 04/01/2015,Stephen S,Gergana I,Lunch,3.22
+2022-02-24 15:26:34.0056|INFO|SupportBank.Transaction|File line: 07/01/2015,Ben B,Jon A,Fantasy Football,9.93
+2022-02-24 15:26:34.5510|INFO|SupportBank.Transaction|File line: 11/01/2015,Ben B,Todd,Lunch,7.33
+2022-02-24 15:26:34.9731|INFO|SupportBank.Transaction|File line: 12/01/2015,Laura B,Ben B,Beers,8.94
+2022-02-24 15:26:35.3241|INFO|SupportBank.Transaction|File line: 15/01/2015,Todd,Rob S,Beers,10.19
+2022-02-24 15:26:35.6355|INFO|SupportBank.Transaction|File line: 16/01/2015,Laura B,Jon A,Lego Assistance,0.69
+2022-02-24 15:26:35.9280|INFO|SupportBank.Transaction|File line: 18/01/2015,Jon A,Sarah T,Coffee,10.73
+2022-02-24 15:26:36.1694|INFO|SupportBank.Transaction|File line: 22/01/2015,Gergana I,Todd,Coffee,0.8
+2022-02-24 15:26:36.3708|INFO|SupportBank.Transaction|File line: 24/01/2015,Gergana I,Chris W,Coffee,8.49
+2022-02-24 15:26:36.5267|INFO|SupportBank.Transaction|File line: 27/01/2015,Laura B,Tim L,Jenkins Fees,0.52
+2022-02-24 15:26:36.6822|INFO|SupportBank.Transaction|File line: 29/01/2015,Sam N,Chris W,Lunch,9.01
+2022-02-24 15:26:36.8512|INFO|SupportBank.Transaction|File line: 01/02/2015,Stephen S,Laura B,Coffee,7.53
+2022-02-24 15:26:37.0134|INFO|SupportBank.Transaction|File line: 02/02/2015,Stephen S,Rob S,Fantasy Football,7.43
+2022-02-24 15:26:37.1683|INFO|SupportBank.Transaction|File line: 04/02/2015,Rob S,Stephen S,Fantasy Football,5.78
+2022-02-24 15:26:37.3278|INFO|SupportBank.Transaction|File line: 06/02/2015,Dan W,Gergana I,Automated Testing Services,10.29
+2022-02-24 15:26:37.6034|INFO|SupportBank.Transaction|File line: 07/02/2015,Jon A,Chris W,Rails Consultancy,7.37
+2022-02-24 15:26:53.1811|INFO|SupportBank.Transaction|File line: 01/01/2015,Laura B,Sarah T,Misc Morale,10.54
+2022-02-24 15:27:12.9565|INFO|SupportBank.Transaction|File line: 01/01/2015,Laura B,Sarah T,Misc Morale,10.54
+2022-02-24 15:27:13.0028|INFO|SupportBank.Transaction|File line: 04/01/2015,Stephen S,Gergana I,Lunch,3.22
+2022-02-24 15:27:13.0075|INFO|SupportBank.Transaction|File line: 07/01/2015,Ben B,Jon A,Fantasy Football,9.93
+2022-02-24 15:27:13.0075|INFO|SupportBank.Transaction|File line: 11/01/2015,Ben B,Todd,Lunch,7.33
+2022-02-24 15:27:13.0075|INFO|SupportBank.Transaction|File line: 12/01/2015,Laura B,Ben B,Beers,8.94
+2022-02-24 15:27:13.0075|INFO|SupportBank.Transaction|File line: 15/01/2015,Todd,Rob S,Beers,10.19
+2022-02-24 15:27:13.0250|INFO|SupportBank.Transaction|File line: 16/01/2015,Laura B,Jon A,Lego Assistance,0.69
+2022-02-24 15:27:13.0250|INFO|SupportBank.Transaction|File line: 18/01/2015,Jon A,Sarah T,Coffee,10.73
+2022-02-24 15:27:13.0250|INFO|SupportBank.Transaction|File line: 22/01/2015,Gergana I,Todd,Coffee,0.8
+2022-02-24 15:27:13.0250|INFO|SupportBank.Transaction|File line: 24/01/2015,Gergana I,Chris W,Coffee,8.49
+2022-02-24 15:27:13.0411|INFO|SupportBank.Transaction|File line: 27/01/2015,Laura B,Tim L,Jenkins Fees,0.52
+2022-02-24 15:27:13.0411|INFO|SupportBank.Transaction|File line: 29/01/2015,Sam N,Chris W,Lunch,9.01
+2022-02-24 15:27:13.0513|INFO|SupportBank.Transaction|File line: 01/02/2015,Stephen S,Laura B,Coffee,7.53
+2022-02-24 15:27:13.0513|INFO|SupportBank.Transaction|File line: 02/02/2015,Stephen S,Rob S,Fantasy Football,7.43
+2022-02-24 15:27:13.0513|INFO|SupportBank.Transaction|File line: 04/02/2015,Rob S,Stephen S,Fantasy Football,5.78
+2022-02-24 15:27:13.0728|INFO|SupportBank.Transaction|File line: 06/02/2015,Dan W,Gergana I,Automated Testing Services,10.29
+2022-02-24 15:27:13.0728|INFO|SupportBank.Transaction|File line: 07/02/2015,Jon A,Chris W,Rails Consultancy,7.37
+2022-02-24 15:27:13.0841|INFO|SupportBank.Transaction|File line: 10/02/2015,Sam N,Gergana I,Sandbox Help,9.84
+2022-02-24 15:27:13.0841|INFO|SupportBank.Transaction|File line: 11/02/2015,Chris W,Stephen S,Misc Morale,0.68
+2022-02-24 15:27:13.0841|INFO|SupportBank.Transaction|File line: 13/02/2015,Laura B,Gergana I,Beers,6.56
+2022-02-24 15:27:13.0841|INFO|SupportBank.Transaction|File line: 16/02/2015,Chris W,Dan W,Jenkins Fees,1.28
+2022-02-24 15:27:13.0841|INFO|SupportBank.Transaction|File line: 17/02/2015,Sarah T,Dan W,Sandbox Help,11.48
+2022-02-24 15:27:13.0987|INFO|SupportBank.Transaction|File line: 18/02/2015,Stephen S,Rob S,Lego Assistance,4.83
+2022-02-24 15:27:13.0987|INFO|SupportBank.Transaction|File line: 21/02/2015,Dan W,Ben B,Pokemon Training,0.5
+2022-02-24 15:27:13.0987|INFO|SupportBank.Transaction|File line: 24/02/2015,Todd,Gergana I,Coffee,9.08
+2022-02-24 15:27:13.0987|INFO|SupportBank.Transaction|File line: 26/02/2015,Stephen S,Jon A,Pokemon Training,4.23
+2022-02-24 15:29:26.5640|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 15:30:39.2225|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 15:30:39.2895|ERROR|SupportBank.Transaction|Date is not in valid format
+2022-02-24 15:58:25.7747|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 15:58:25.8812|ERROR|SupportBank.Transaction|Date is not in valid format
+2022-02-24 15:58:42.2460|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 16:00:04.0271|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 16:00:57.9751|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
