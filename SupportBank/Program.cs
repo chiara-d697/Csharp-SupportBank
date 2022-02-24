@@ -7,9 +7,30 @@
         {
             Bank b = new Bank();
             b.GetTransactionsFromFile("Transactions2014.csv");
-            b.PrintTransactions();
-            b.DisplayAccountList();
+            // b.PrintTransactions();
+            // b.DisplayAccountList();
+            // b.DisplayAllBalances();
+            // Account a = b.AccountList.Find(x => x.Name == "Todd");
+            // b.PrintTransactions(a);
 
+            if (args[0].ToLower()=="list")
+            {
+                if (!b.AccountList.Any (AccessViolationException=>AccessViolationException.Name.ToLower()==args[1].ToLower()))
+                {
+                    throw new ArgumentOutOfRangeException("The given name does not match any account!");
+                }
+                else
+                {
+                Account a = b.AccountList.Find(x => x.Name.ToLower() == args[1].ToLower() );
+                b.PrintTransactions(a);
+                return;
+                }
+            }
+            else
+            {
+                b.DisplayAccountList();
+                return;
+            }
             
         }
     }

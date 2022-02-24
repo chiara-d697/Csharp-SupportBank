@@ -60,7 +60,35 @@ namespace SupportBank
             }
         }
 
+        public void PrintTransactions (Account account)
+        {
+            foreach (Transaction transaction in TransactionList)
+            {
+                if (account.Name==transaction.AccountFrom || account.Name==transaction.AccountTo)
+                    transaction.PrintTransaction();
+            }
+            
+        }
+        public void DisplayAllBalances()
+        {
+            foreach (Account account in AccountList)
+            {
+                Console.WriteLine("Name {0} Total balance = {1}",account.Name, string.Format("{0:c}",GetTotalBalance(account))); 
+            }
+        }
 
+        public decimal GetTotalBalance(Account account)
+        {
+            decimal total=0;
+            foreach (Transaction transaction in TransactionList)
+            {
+                if (transaction.AccountTo==account.Name)
+                    total+=transaction.Amount;
+                if (transaction.AccountFrom==account.Name)
+                    total-=transaction.Amount;
+            };
+            return total;
+        }
 
     }
 }
