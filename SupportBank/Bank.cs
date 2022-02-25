@@ -11,9 +11,8 @@ namespace SupportBank
             AccountList = new List<Account>();
         }
 
-        public void GetTransactionsFromFile(String fileName) 
-        {
-            string[] lines = File.ReadAllLines(fileName);
+        public void GetTransactions(string[] lines)
+        {   
             int nr=0;
             foreach (string line in lines) 
             {
@@ -25,9 +24,8 @@ namespace SupportBank
                     AddToAccountList(transaction.AccountTo);    
                 }
                 nr+=1;
-            }
+            } 
         }
-
         public void AddToAccountList(String accountName)
         {
             int x=0;
@@ -75,6 +73,11 @@ namespace SupportBank
             {
                 Console.WriteLine("Name {0} Total balance = {1}",account.Name, string.Format("{0:c}",GetTotalBalance(account))); 
             }
+        }
+
+        public void DisplayBalance(Account account)
+        {
+            Console.WriteLine("Name {0} Total balance = {1}",account.Name, string.Format("{0:c}",GetTotalBalance(account))); 
         }
 
         public decimal GetTotalBalance(Account account)

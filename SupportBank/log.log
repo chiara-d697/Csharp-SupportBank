@@ -51,3 +51,5 @@
 2022-02-24 15:58:42.2460|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
 2022-02-24 16:00:04.0271|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
 2022-02-24 16:00:57.9751|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-25 19:57:55.7165|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-25 20:01:54.9269|ERROR|SupportBank.Transaction|Amount of money is not in valid format in line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger

@@ -39,7 +39,6 @@ namespace SupportBank
             try
             {
                 Amount=decimal.Parse(arr[4]);
-                //Logger.Info($"File line: {line}");
             }
             catch (FormatException e)
             {
