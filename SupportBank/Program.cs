@@ -7,28 +7,13 @@
         static void Main(String[] args)
         {
             
-            //c.SetLogFile("log.log");
             Configuration c = new Configuration();
             c.SetLogFile(@"C:\Training\Csharp-SupportBank\SupportBank\log.log");
              
             Bank b = new Bank();
             //b.GetTransactionsFromFile("Transactions2014.csv");
-            b.GetTransactionsFromFile("DodgyTransactions2015.csv");
+            b.GetTransactions("DodgyTransactions2015.csv");
 
-            // try
-            // {
-            // Logger.Info("Hello world");
-            // System.Console.ReadKey();
-            // }
-            // catch (Exception ex)
-            // {
-            // Logger.Error(ex, "Goodbye cruel world");
-            // }
-            // b.PrintTransactions();
-            // b.DisplayAccountList();
-            // b.DisplayAllBalances();
-            // Account a = b.AccountList.Find(x => x.Name == "Todd");
-            // b.PrintTransactions(a);
 
             //if (args.Count!=0)
             //{

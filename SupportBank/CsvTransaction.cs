@@ -1,7 +1,7 @@
 namespace SupportBank
 {
 
-    public class Transaction
+    public class CsvTransaction
     {
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         public String AccountTo {get; set;}

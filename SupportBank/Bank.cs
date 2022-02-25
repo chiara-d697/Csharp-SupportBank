@@ -11,22 +11,6 @@ namespace SupportBank
             AccountList = new List<Account>();
         }
 
-        public void GetTransactionsFromFile(String fileName) 
-        {
-            string[] lines = File.ReadAllLines(fileName);
-            int nr=0;
-            foreach (string line in lines) 
-            {
-                if (nr!=0)
-                {
-                    Transaction transaction = new Transaction (line);    
-                    TransactionList.Add(transaction);
-                    AddToAccountList(transaction.AccountFrom); 
-                    AddToAccountList(transaction.AccountTo);    
-                }
-                nr+=1;
-            }
-        }
 
         public void AddToAccountList(String accountName)
         {
@@ -41,6 +25,27 @@ namespace SupportBank
                 Account account = new Account(accountName);
                 AccountList.Add(account);
             }
+        }
+
+        public void GetTransactions(string fileName)
+        {   
+            CsvLoader loader = new CsvLoader();
+            var lines = loader.FileLoader(fileName);
+
+
+            int nr=0;
+
+            foreach (string line in lines) 
+            {
+                if (nr!=0)
+                {
+                    Transaction transaction = new Transaction (line);    
+                    TransactionList.Add(transaction);
+                    AddToAccountList(transaction.AccountFrom); 
+                    AddToAccountList(transaction.AccountTo);    
+                }
+                nr+=1;
+            } 
         }
 
         public void PrintTransactions ()
