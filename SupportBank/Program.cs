@@ -22,7 +22,7 @@
 
             // b.PrintTransactions();
             // b.DisplayAccountList();
-            // b.DisplayAllBalances();
+            //b.DisplayAllBalances();
             // Account a = b.AccountList.Find(x => x.Name == "Todd");
             // b.PrintTransactions(a);
 
@@ -41,10 +41,10 @@
                 }
                 else
                 {
-                Account a = b.AccountList.Find(x => x.Name.ToLower() == args[1].ToLower() );
-                b.PrintTransactions(a);
-                b.DisplayBalance(a);
-                return;
+                    Account a = b.AccountList.Find(x => x.Name.ToLower() == args[1].ToLower() );
+                    b.PrintTransactions(a);
+                    b.DisplayBalance(a);
+                    return;
                 }
             }
         }

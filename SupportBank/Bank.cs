@@ -71,7 +71,7 @@ namespace SupportBank
         {
             foreach (Account account in AccountList)
             {
-                Console.WriteLine("Name {0} Total balance = {1}",account.Name, string.Format("{0:c}",GetTotalBalance(account))); 
+                DisplayBalance(account);
             }
         }
 
